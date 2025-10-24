@@ -1,4 +1,4 @@
-# GFBioNet
+# GFBioNet (Genomic Factors regulating BIOlogical NETworks)
 Identifying High-Dimensional Genomic Factors Associated with Biological Networks
 
 Two-stage approach: 

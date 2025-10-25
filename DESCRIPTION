@@ -1,0 +1,26 @@
+Package: GFBioNet
+Title: Identify Genomic Factors Regulating Biological Networks
+Version: 0.1.0
+Authors@R: 
+    person("Samuel", "Anyaso-Samuel", email = "samuel.anyaso-samuel@nih.gov",
+           role = c("aut", "cre"))
+Description: Implements a two-stage procedure based on fast node-wise penalized regression (lasso and elastic net) to identify genomic factors that regulating biological networks. Stage 1 involves estimating the biological network using Gaussian graphical models (GGMs) while stage 2 involves identifying genomic factors that regulate edges of the biological network. Both stages accounts for bias-corrected false-positives and FDR-based tuning selection.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Imports: 
+    methods,	
+    glmnet,
+    Matrix,
+    matrixStats,
+    parallel,
+    stats,
+    Rcpp,
+    RcppArmadillo
+Depends:
+    R (>= 3.6)
+
